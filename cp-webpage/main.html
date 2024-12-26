@@ -44,7 +44,7 @@
             if (jwtToken) {        
                 //localStorage.setItem("jwtToken", jwtToken);
                 // Make API request with the JWT token
-                fetch('https://2n037jkusl.execute-api.us-east-1.amazonaws.com/dev/userdata', {
+                fetch('https://ne0zdia9v6.execute-api.us-east-1.amazonaws.com/dev/userdata', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         <div class="panel-heading">
         <div class="row">
             <div class="col-md-6 text-left">
-                <h3>Welcome to AWS Cloud Project!</h3>
+                <h3>Welcome to AWS Cloud Project !</h3>
                 <div id="userEmailDisplay">User email will be displayed here</div>              
             </div>
             <div class="col-md-6 text-right">
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             productPrice: document.getElementById('productPrice').value
         };
         // Send a POST request to your API endpoint
-        fetch('https://2n037jkusl.execute-api.us-east-1.amazonaws.com/dev/products', {
+        fetch('https://ne0zdia9v6.execute-api.us-east-1.amazonaws.com/dev/products', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
