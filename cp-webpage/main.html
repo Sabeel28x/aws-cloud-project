@@ -44,7 +44,7 @@
             if (jwtToken) {        
                 //localStorage.setItem("jwtToken", jwtToken);
                 // Make API request with the JWT token
-                fetch('https://pw7jefdqr9.execute-api.us-east-1.amazonaws.com/dev/products', {
+                fetch('https://3o24ckkepf.execute-api.us-east-1.amazonaws.com/test/products', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             productPrice: document.getElementById('productPrice').value
         };
         // Send a POST request to your API endpoint
-        fetch('https://pw7jefdqr9.execute-api.us-east-1.amazonaws.com/dev/products', {
+        fetch('https://3o24ckkepf.execute-api.us-east-1.amazonaws.com/test/products', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
